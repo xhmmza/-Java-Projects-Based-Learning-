@@ -1,0 +1,10 @@
+import java.util.Random;
+import java.util.Scanner;
+public class randomnamegenerator{
+    public static void main(String[] args){
+        String[] names = {"Alice", "Bob", "Charlie", "David", "Emma", "Frank", "Grace", "Henry"};
+        Random random = new Random();
+        int randomIndex = random.nextInt(names.length);
+         System.out.println("Randomly Selected Name: "+ names[randomIndex]);
+    }
+}
